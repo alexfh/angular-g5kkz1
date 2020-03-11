@@ -2,8 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-prduct-alerts',
-  templateUrl: './prduct-alerts.component.html',
-  styleUrls: ['./prduct-alerts.component.css']
+  templateUrl: './product-alerts.component.html',
+  styleUrls: ['./product-alerts.component.css']
 })
 export class PrductAlertsComponent implements OnInit {
   @Input() product;
